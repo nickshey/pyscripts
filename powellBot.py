@@ -1,0 +1,20 @@
+import pyautogui as pa
+import time
+
+pa.moveTo(1250, 1028, duration=0.25)
+pa.click()
+time.sleep(1)
+pa.keyDown("command")
+pa.keyDown("l")
+pa.keyUp("command")
+pa.keyUp("l")
+time.sleep(1)
+pa.typewrite("images.google.com")
+pa.keyDown("enter")
+pa.keyUp("enter")
+time.sleep(2)
+pa.typewrite("harry powell uva")
+pa.keyDown("enter")
+pa.keyUp("enter")
+pa.moveTo(723, 384, duration=0.25)
+pa.dragTo(476, 39, duration=0.25)
