@@ -1,2 +1,4 @@
 credentials.py
 /__pycache__
+twitter_credentials.py
+tweets.txt
